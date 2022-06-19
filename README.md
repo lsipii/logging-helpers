@@ -45,7 +45,7 @@ Subject 2: more log input
 {
     "name": "Error",
     "message": "Test exception",
-    "stack": "Error: Test exception\n    at /home/lsipii/Projects/commandline-helpers/scripts/test-logging.ts:17:20\n    at Generator.next (<anonymous>)\n    at /home/lsipii/Projects/commandline-helpers/scripts/test-logging.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/lsipii/Projects/commandline-helpers/scripts/test-logging.ts:4:12)\n    at testLog (/home/lsipii/Projects/commandline-helpers/scripts/test-logging.ts:16:12)\n    at /home/lsipii/Projects/commandline-helpers/scripts/test-logging.ts:86:11\n    at Generator.next (<anonymous>)\n    at /home/lsipii/Projects/commandline-helpers/scripts/test-logging.ts:8:71\n    at new Promise (<anonymous>)"
+    "stack": "Error: Test exception\n    at /home/lsipii/Projects/logging-helpers/scripts/test-server-logging.ts:17:20\n    at Generator.next (<anonymous>)\n    at /home/lsipii/Projects/logging-helpers/scripts/test-server-logging.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/lsipii/Projects/logging-helpers/scripts/test-server-logging.ts:4:12)\n    at testLog (/home/lsipii/Projects/logging-helpers/scripts/test-server-logging.ts:16:12)\n    at /home/lsipii/Projects/logging-helpers/scripts/test-server-logging.ts:86:11\n    at Generator.next (<anonymous>)\n    at /home/lsipii/Projects/logging-helpers/scripts/test-server-logging.ts:8:71\n    at new Promise (<anonymous>)"
 }
 
 ```
