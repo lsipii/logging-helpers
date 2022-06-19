@@ -75,4 +75,4 @@ nice basic log
 
 ## Examples
 
-For basic examples see [./scripts/test-logging.ts](./scripts/test-logging.ts)
+For basic examples see [./scripts/test-server-logging.ts](./scripts/test-server-logging.ts) and [./scripts/test-web-logging.ts](./scripts/test-web-logging.ts)
