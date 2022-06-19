@@ -5,7 +5,7 @@ Utilities for logging javascript and NodeJs applications
 ## Install
 
 ```
-npm install logging-helpers
+npm install @lsipii/logging-helpers
 ```
 
 ## Usage
