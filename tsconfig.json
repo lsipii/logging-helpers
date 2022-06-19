@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "experimentalDecorators": true,
+        "outDir": "dist/",
+        "lib": ["es6"],
+        "baseUrl": ".",
+        "declaration": true
+    },
+    "include": ["src/**/*.ts"]
+}
