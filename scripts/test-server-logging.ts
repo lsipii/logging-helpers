@@ -1,6 +1,6 @@
-import { ProgressLogger, Logger } from "../src/server";
-import { CommandlineUtils } from "commandline-helpers";
 import { Runtime } from "commandline-helpers";
+
+import { ProgressLogger, Logger } from "../src/server";
 import { colourFormatCliText, log } from "../src/server/loggingOutputs";
 
 async function testLog() {
@@ -19,7 +19,7 @@ async function testLog() {
 
 async function testMoreLog() {
     const logger = new Logger();
-    const message = CommandlineUtils.getFirstArgument("Example log output");
+    const message = "Example log output";
     logger.log(logger.colourFormatPrettyObsArrowText("Logging test"));
 
     logger.log("Logger subject", `${message} 1.1`);
@@ -46,7 +46,7 @@ async function testExceptionLog() {
 
 async function testDebugLog() {
     const logger = new Logger();
-    const message = CommandlineUtils.getFirstArgument("Example log debug heading");
+    const message = "Example log debug heading";
     logger.log(logger.colourFormatPrettyObsArrowText("Debug timing test"));
 
     logger.debugStart("Start data", message);
@@ -56,7 +56,7 @@ async function testDebugLog() {
 
 async function testProgressBar() {
     const logger = new ProgressLogger();
-    const initialMessage = CommandlineUtils.getFirstArgument("Logging progress..");
+    const initialMessage = "Logging progress..";
 
     logger.log(logger.colourFormatPrettyObsArrowText("Running an example progress bar"));
 
