@@ -1,6 +1,6 @@
-import { ifInArray } from "transformation-helpers/Arrays";
-import { safeClone } from "transformation-helpers/Transformations";
-import { ensureObjectDefaults } from "transformation-helpers/Objects";
+import { ifInArray } from "@lsipii/transformation-helpers/Arrays";
+import { safeClone } from "@lsipii/transformation-helpers/Transformations";
+import { ensureObjectDefaults } from "@lsipii/transformation-helpers/Objects";
 
 /**
  *

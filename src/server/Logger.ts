@@ -1,6 +1,6 @@
-import { exceptionToObject } from "transformation-helpers/Transformations";
-import { ifInArray, addToArray } from "transformation-helpers/Arrays";
-import { ensureString, ifTextAlphaNumeric } from "transformation-helpers/Strings";
+import { exceptionToObject } from "@lsipii/transformation-helpers/Transformations";
+import { ifInArray, addToArray } from "@lsipii/transformation-helpers/Arrays";
+import { ensureString, ifTextAlphaNumeric } from "@lsipii/transformation-helpers/Strings";
 
 import { colourPrimaryLogEventText, colourSecondaryLogEventText, colourFormatPrettyObsArrowText, colourFormatCliText, getDurationLog } from "./loggingOutputs";
 

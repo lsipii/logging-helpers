@@ -1,8 +1,8 @@
 const process = require("process");
 const readline = require("readline");
 
-import { getDateNow, getDuration, formatDuration, dateToShortString } from "transformation-helpers/Dates";
-import { ensureString, firstCharToUpperCase, niceStringifyObject, niceTrim } from "transformation-helpers/Strings";
+import { getDateNow, getDuration, formatDuration, dateToShortString } from "@lsipii/transformation-helpers/Dates";
+import { ensureString, firstCharToUpperCase, niceStringifyObject, niceTrim } from "@lsipii/transformation-helpers/Strings";
 
 /**
  * Console logs with a colour

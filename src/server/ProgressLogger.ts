@@ -1,6 +1,6 @@
-import { formatDuration, formatTimeEstimation, getDateNow, getDuration } from "transformation-helpers/Dates";
-import { getRandomNumber, roundNicely } from "transformation-helpers/Numbers";
-import { ifString } from "transformation-helpers/Strings";
+import { formatDuration, formatTimeEstimation, getDateNow, getDuration } from "@lsipii/transformation-helpers/Dates";
+import { getRandomNumber, roundNicely } from "@lsipii/transformation-helpers/Numbers";
+import { ifString } from "@lsipii/transformation-helpers/Strings";
 
 import Logger from "./Logger";
 

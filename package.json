@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/lsipii/logging-helpers#readme",
   "dependencies": {
-    "transformation-helpers": "^1.0.10"
+    "@lsipii/transformation-helpers": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -39,7 +39,7 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
     "@types/node": "^18.0.0",
-    "commandline-helpers": "^2.0.1",
+    "@lsipii/commandline-helpers": "^1.0.1",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.7.3"
