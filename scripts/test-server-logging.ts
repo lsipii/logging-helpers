@@ -1,4 +1,4 @@
-import { Runtime } from "commandline-helpers";
+import { Runtime } from "@lsipii/commandline-helpers";
 
 import { ProgressLogger, Logger } from "../src/server";
 import { colourFormatCliText, log } from "../src/server/loggingOutputs";
