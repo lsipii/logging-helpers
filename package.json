@@ -1,5 +1,5 @@
 {
-  "name": "logging-helpers",
+  "name": "@lsipii/logging-helpers",
   "version": "1.0.0",
   "description": "Utilities for logging javascript and NodeJs applications",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
     "build-with-babel": "babel ./src --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files --extensions '.ts'",
     "build-type-declarations": "tsc --declaration --outDir dist/ --emitDeclarationOnly --declarationMap",
     "make-package": "npm run build && npm test && node dist/packageSetup.cjs",
-    "publish-package": "cd dist && npm publish"
+    "publish-package": "cd dist && npm publish --access public"
   },
   "repository": {
     "type": "git",

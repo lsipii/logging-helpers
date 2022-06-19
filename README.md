@@ -13,7 +13,7 @@ npm install logging-helpers
 NodeJs example:
 
 ```TypeScript
-import { Logger } from "logging-helpers/server";
+import { Logger } from "@lsipii/logging-helpers/server";
 const logger = new Logger()
 
 logger.log("just some text")
@@ -53,7 +53,7 @@ Subject 2: more log input
 Browser console output example:
 
 ```TypeScript
-import { appLog, log } from "logging-helpers/web";
+import { appLog, log } from "@lsipii/logging-helpers/web";
 
 appLog("App", "nice notice log from app");
 appLog("App", "error", "an error log from app");
