@@ -73,6 +73,10 @@ nice basic log
 { object: 'content' }  123
 ```
 
+Screenshot with heading colourings:
+
+![App headings screenshot](./resources/example-web-log-output.png)
+
 ## Examples
 
 For basic examples see [./scripts/test-server-logging.ts](./scripts/test-server-logging.ts) and [./scripts/test-web-logging.ts](./scripts/test-web-logging.ts)
